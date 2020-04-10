@@ -93,4 +93,12 @@ p {
     div.what-c {
       width: 70vw;
     }
+    
+    div.img {
+        position: absolute;
+        left: 50%;
+        text-align: left;
+        top: 10%;
+        transform: translate(0%, -50%);
+    }
 }
