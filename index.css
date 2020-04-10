@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.scrolli {
+    font-size: 5em;
+    animation-name: float;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    margin-block-start: 0em;
+    margin-block-end: 0.1em;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+}
+
+h3 {
+    font-size: 1.2em
+}
+
+p {
+    font-size: 1.3em;
+    color: white;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+
+.scrolld{
+    color: white;
+    animation-name: float;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+div.test {
+    position: absolute;
+    animation-name: fadein;
+    animation-duration: 2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.roundsd {
+    position: absolute;
+    animation-name: fadein;
+    animation-duration: 2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.scroll {
+    position: absolute;
+    animation-name: fadein, float;
+    animation-duration: 2s, 3s;
+    animation-iteration-count: 1, infinite;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.header {
+    background-image: url(https://images.unsplash.com/photo-1495111372246-c54c2700dfc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=887&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+div.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+div.lorem{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    left: 0px;
+    top: 100vh;
+    position: absolute;
+}
+
+div.lorem-c {
+    position: absolute;
+    left: 10%;
+    text-align: left;
+    width: 40vw;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+div.who{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    left: 0px;
+    top: 200vh;
+    position: absolute;
+}
+
+.question{
+    color: black;
+}
+
+.whodesc{
+    color: black;
+}
+
+div.whot{
+    position: absolute;
+    right: 10%;
+    text-align: left;
+    width: 40vw;
+    top: 50%;
+    transform: translate(0%, -50%);
+    text-align: right;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+@keyframes float {
+    0% {top: 85%;}
+    50% {top: 90%;}
+    100% {top: 85%;}
+}
+
+.aconfused:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.aconfused {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0px solid white;
+}
+
+div.img {
+    position: absolute;
+    left: 60%;
+    text-align: left;
+    width: 40vw;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.rounds {
+    color: black;
+}
