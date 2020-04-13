@@ -157,6 +157,18 @@ div.whot{
     border-bottom: 3px solid white;
 }
 
+.aconfusedb {
+    text-decoration: none;
+    color: black;
+    border-bottom: 0px solid white;
+}
+
+.aconfusedb:hover {
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
 .aconfused {
     text-decoration: none;
     color: white;
