@@ -185,6 +185,7 @@ div.viewprofile {
     transform: translate(-50%, -50%);
     text-align: center;
     visibility: hidden;
+    color: black;
 }
 
 @media (max-height: 530px) {
@@ -192,7 +193,7 @@ div.viewprofile {
         visibility: visible;
     }
     
-    div.test {
+    div.roundsd {
         visibility: hidden;
     }
 }
