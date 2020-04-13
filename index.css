@@ -188,6 +188,10 @@ div.viewprofile {
     color: black;
 }
 
+.viewblacktext {
+    color: black;   
+}
+
 @media (max-height: 530px) {
     div.viewprofile {
         visibility: visible;
