@@ -6,8 +6,8 @@
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hide;
-    overflow-y: hide;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
