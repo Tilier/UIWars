@@ -120,6 +120,7 @@ div.who{
     left: 0px;
     top: 200vh;
     position: absolute;
+    overflow-y: hidden;
 }
 
 .question{
