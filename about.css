@@ -100,4 +100,10 @@ p {
     div.img {
         visibility: hidden;
     }
+    
+    .aquarial {
+        text-decoration: none;
+        color: white;
+        border-bottom: 3px solid white;
+    }
 }
