@@ -53,11 +53,11 @@ h1 {
     font-size: 3em;
     color: white;
     margin-block-start: 0em;
-    margin-block-end: 0.1em;
+    margin-block-end: 0.25em;
 }
 
 body {
-    font-family: 'Alata', sans-serif;
+    font-family: 'Questrial', sans-serif;
 }
 
 h3 {
